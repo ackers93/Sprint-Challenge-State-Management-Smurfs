@@ -2,27 +2,53 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+body {
+  background-image: url(./img/background.jpg);
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
+h1 {
+  background-color: #36B3FC;
+}
+
+form {
+  display:flex;
+  justify-content: space-around;
+  border: 2px solid grey;
+  border-radius: 10px;
+  background-color: white;
   padding: 20px;
+}
+
+button {
+  background-color: #36B3FC;
+  border-radius: 10px;
+}
+
+input {
+  border-radius: 5px;
+    margin: 10px;
+}
+
+label {
+  margin: 10px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+}
+
+.village {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.smurfcard {
+  background-color: #36B3FC;
   color: white;
-}
-
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  border: 1px solid grey;
+  border-radius: 10px;
+  margin: 10px;
+  width: 30%;
 }
